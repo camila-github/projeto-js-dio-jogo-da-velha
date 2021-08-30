@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
+:root{
+  --firstColor: #0a8b20;
+  --secondColor: #000;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: hidden;
+}
+
+@font-face{
+  font-family: spaceboy;
+  src: url('/assets/fonts/spaceboy.ttf');
+}
+
+.flex-jogo {
+  color: var(--firstColor);
+  display: flex;
+  
+  background-color: var(--firstColor);
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 30px;
+  font-family: spaceboy;
+  height: 100px;
+  width: 500px;
+  background-clip: text;
+  color: var(--firstColor);
+  padding: 2px;
+  margin: 0;
+}
+
+.container {
+  background: var(--secondColor);
+  margin: auto;
+  padding: 2%;
+  border-radius: 5%;
+  border: 5px solid var(--firstColor)
+}
+
+.titulo {
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: -30px 20px 25px 20px;
+  
+}
+
+button, .info-jogador {
+  background-color: #f5f3ef;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  border: 5px solid var(--firstColor);
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--firstColor);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--firstColor);
+  color:#f5f3ef;
+}
+
+#jogo {
+  background-color: var(--secondColor);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 8px;
+  padding: 5px;
+  margin: 5px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.jogo-quadrado {
+  background: #f5f3ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115px;
+  width: 130px;
+  border-radius: 10px;
+  border: 5px solid var(--firstColor);
+  margin: 1px;
+}
+
+.jogo-quadrado:hover {
+  background-color: #d49709;
+  cursor: pointer;
+}
+
+.X::after {
+  color: var(--firstColor);
+  content: "X";
+  font-size: 60px;
+  margin: 10px;
+  padding: 50px;
+  font-family: spaceboy;
+}
+
+.O::after {
+  color: var(--secondColor);
+  content: "O";
+  font-size: 60px;
+  margin: 10px;
+  padding: 50px;
+  font-family: spaceboy;
+}
+
+.vencedor:after {
+  color: rgb(224, 9, 171);
+}
+
+.velha:after{
+  color: rgb(231, 18, 53);
+}
+
+@media only screen and (max-width: 1080px) {
+  #jogo {
+    grid-gap: 8px;
+    margin: 5px;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .jogo-quadrado {
+    max-height: 115px;
+    max-width: 130px;
+  }
+
+  button:hover {
+  background-color: var(--firstColor);
+  color:#f5f3ef;
+  }
+}

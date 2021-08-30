@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/assets/css/jogo.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <title>Jogo da Velha - DIO</title>
+  </head>
+  <body>
+    <div class="img"></div>
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#" class="nav-link">
+            <i class="fas fa-angle-double-right"></i>
+            <span class="link-text">Jogo Da Velha</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/camila-github" class="nav-link" id="github" target="_blank">
+            <i class="fab fa-github"></i>
+            <span class="link-text">Github</span>           
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.facebook.com/" class="nav-link" id="facebook" target="_blank">
+            <i class="fab fa-facebook"></i>
+            <span class="link-text">Facebook</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/" class="nav-link" id="linkedin" alt="linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <span class="link-text">Linkedin</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.twitter.com/" class="nav-link" id="twitter" alt="twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span class="link-text">Twitter</span>
+          </a>
+        </li>  
+
+        <li class="nav-item">
+          <a href="https://www.youtube.com/" class="nav-link" id="youtube" target="_blank" >
+            <i class="fab fa-youtube"></i>
+            <span class="link-text logo-text">Youtube</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex-jogo">
+      <div class="container">
+        <h1 class="titulo" id="title">JOGO DA VELHA</h1>
+        <div class="info">
+          <div class="info-jogador">X está na vez!!</div>        
+          <button onclick="reiniciarJogo()">Jogar de novo</button>
+        </div>
+        <div id="jogo"></div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a6b5a8efdf.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
