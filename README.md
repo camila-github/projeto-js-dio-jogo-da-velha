@@ -7,5 +7,5 @@ Curso JavaScript Developer: https://digitalinnovation.one/
 ## Vídeo de demonstração do aplicativo
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/projeto-js-dio-jogo-da-velha/blob/main/docs/video.gif"/>
 </p>
