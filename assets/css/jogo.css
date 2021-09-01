@@ -14,8 +14,8 @@ body{
 }
 
 @font-face{
-  font-family: spaceboy;
-  src: url('../fonts/spaceboy.ttf');
+  font-family: icepixel;
+  src: url('../fonts/icepixel.ttf');
 }
 
 .flex-jogo {
@@ -29,7 +29,7 @@ body{
 
 #title {
   font-size: 30px;
-  font-family: spaceboy;
+  font-family: icepixel;
   height: 100px;
   width: 500px;
   background-clip: text;
@@ -116,7 +116,7 @@ button:hover {
   font-size: 60px;
   margin: 10px;
   padding: 50px;
-  font-family: spaceboy;
+  font-family: icepixel;
 }
 
 .O::after {
@@ -125,7 +125,7 @@ button:hover {
   font-size: 60px;
   margin: 10px;
   padding: 50px;
-  font-family: spaceboy;
+  font-family: icepixel;
 }
 
 .vencedor:after {

@@ -20,8 +20,8 @@ main {
 }
 
 @font-face{
-  font-family: spaceboy;
-  src: url('../fonts/spaceboy.ttf');
+  font-family: icepixel;
+  src: url('../fonts/icepixel.ttf');
 }
 
 .navbar {
@@ -68,10 +68,11 @@ main {
 
 .link-text {
   display: none;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 1rem;
-  font-family: spaceboy;
+  font-family: icepixel;
   font-weight: bold;
+  
 }
 
 .nav-link svg {
