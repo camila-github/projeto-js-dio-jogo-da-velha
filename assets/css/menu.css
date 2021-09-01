@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-
 :root {
   font-size: 16px;
   --firstColor: #0a8b20;
@@ -36,8 +34,8 @@ main {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-items: center;
+  align-items:flex-start;
+  justify-items: right;
   height: 100%;
 }
 
@@ -46,7 +44,7 @@ main {
 }
 
 #github {
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--bg-primario);
 }
 
 .nav-item:last-child {
