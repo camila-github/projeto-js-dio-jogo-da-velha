@@ -13,7 +13,7 @@ body{
 
 @font-face{
   font-family: spaceboy;
-  src: url("../fonts/spaceboy.ttf");
+  src: url('../fonts/spaceboy.ttf');
 }
 
 .flex-jogo {
