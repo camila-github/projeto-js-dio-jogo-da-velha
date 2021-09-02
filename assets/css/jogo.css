@@ -14,8 +14,8 @@ body{
 }
 
 @font-face{
-  font-family: icepixel;
-  src: url('../fonts/icepixel.ttf');
+  font-family: MondayBulkers;
+  src: url('../fonts/MondayBulkers.ttf');
 }
 
 .flex-jogo {
@@ -28,8 +28,8 @@ body{
 }
 
 #title {
-  font-size: 30px;
-  font-family: icepixel;
+  font-size: 40px;
+  font-family: MondayBulkers;
   height: 100px;
   width: 500px;
   background-clip: text;
@@ -113,19 +113,19 @@ button:hover {
 .X::after {
   color: var(--firstColor);
   content: "X";
-  font-size: 60px;
+  font-size: 80px;
   margin: 10px;
   padding: 50px;
-  font-family: icepixel;
+  font-family: MondayBulkers;
 }
 
 .O::after {
   color: var(--secondColor);
   content: "O";
-  font-size: 60px;
+  font-size: 80px;
   margin: 10px;
   padding: 50px;
-  font-family: icepixel;
+  font-family: MondayBulkers;
 }
 
 .vencedor:after {

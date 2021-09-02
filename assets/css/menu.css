@@ -20,8 +20,8 @@ main {
 }
 
 @font-face{
-  font-family: icepixel;
-  src: url('../fonts/icepixel.ttf');
+  font-family: MondayBulkers;
+  src: url('../fonts/MondayBulkers.ttf');
 }
 
 .navbar {
@@ -68,11 +68,9 @@ main {
 
 .link-text {
   display: none;
-  font-size: 22px;
+  font-size: 25px;
   margin-left: 1rem;
-  font-family: icepixel;
-  font-weight: bold;
-  
+  font-family: MondayBulkers;
 }
 
 .nav-link svg {
