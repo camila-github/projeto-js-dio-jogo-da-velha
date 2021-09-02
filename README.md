@@ -13,5 +13,5 @@ Alura Tema Flexbox:  [https://www.alura.com.br/artigos/css-guia-do-flexbox](http
 ## Vídeo de demonstração do aplicativo
 
 <p align="center">
-   <img src="https://github.com/camila-github/projeto-js-dio-jogo-da-velha/blob/main/docs/video-.gif"/>
+   <img src="https://github.com/camila-github/projeto-js-dio-jogo-da-velha/blob/main/docs/video.gif"/>
 </p>
