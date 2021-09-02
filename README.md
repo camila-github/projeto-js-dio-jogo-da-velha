@@ -6,6 +6,10 @@ Canal Youtube Justim Kim:
 [https://www.youtube.com/watch?v=Rzhcb4M9-0Q](https://www.youtube.com/watch?v=Rzhcb4M9-0Q)
 
 Alura Tema Flexbox:  [https://www.alura.com.br/artigos/css-guia-do-flexbox](https://www.alura.com.br/artigos/css-guia-do-flexbox)
+
+## Site publicado no link abaixo:
+[https://camila-github.github.io/projeto-js-dio-jogo-da-velha/](https://camila-github.github.io/projeto-js-dio-jogo-da-velha/)
+
 ## Vídeo de demonstração do aplicativo
 
 <p align="center">
